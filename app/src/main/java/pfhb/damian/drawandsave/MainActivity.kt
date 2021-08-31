@@ -26,7 +26,7 @@ open class MainActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main_drawandsave)
         supportActionBar?.hide()
 
         val saveBtn = findViewById<Button>(R.id.zapisz)
